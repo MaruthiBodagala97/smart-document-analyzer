@@ -48,26 +48,19 @@ cd frontend
 npm install
 ```
 
-4. Create a `.env` file in the root directory:
-```
-OPENAI_API_KEY=your_api_key
-SECRET_KEY=your_secret_key
-```
 
-5. Start the backend server:
+4. Start the backend server:
 ```bash
 uvicorn app.main:app --reload
 ```
 
-6. Start the frontend development server:
+5. Start the frontend development server:
 ```bash
 cd frontend
 npm start
 ```
 
-## API Documentation
 
-Once the server is running, visit `http://localhost:8000/docs` for the interactive API documentation.
 
 ## Testing
 
@@ -88,8 +81,3 @@ pytest
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## Acknowledgments
-
-- OpenAI for their powerful language models
-- FastAPI for the amazing web framework
-- React for the frontend framework # smart-document-analyzer
