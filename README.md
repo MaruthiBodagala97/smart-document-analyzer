@@ -92,4 +92,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 - OpenAI for their powerful language models
 - FastAPI for the amazing web framework
-- React for the frontend framework 
+- React for the frontend framework # smart-document-analyzer
